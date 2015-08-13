@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2014, 2:47:25 PM
+    Author     : Takahashi
+*/
+@charset "utf-8";
+@navbar-bg-color: #202020;
+@navbar-bg-hover-color: #000000;
+@navbar-bg-dropdown-color: #0fa1e0;
+@navbar-bg-dropdown-hover-color:#0c7fb0;
+@navbar-bg-iconbar: white;
+@navbar-border-dropdown-color: #0fa1e0;
+@navbar-border-color: #0fa1e0;
+@navbar-divider-color: #0fa1e0;
+@navbar-text-color: white;
+@navbar-dropdown-text-color: white;
+@navbar-dropdown-hover-text-color: white;
+
+div.pack
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.navbar-toggle .icon-bar
+{
+    background-color: @navbar-bg-iconbar !important;
+}
+
+.navbar-background
+{
+	background-color: @navbar-bg-color;
+}
+
+.navbar-default
+{
+	background-color: @navbar-bg-color !important;
+	border-color: @navbar-border-color !important;
+}
+
+.navbar-default .navbar-brand
+{
+	color: @navbar-text-color !important;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: @navbar-text-color !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	background-color: @navbar-bg-hover-color !important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
+{
+	background-color: @navbar-bg-hover-color !important;
+}
+
+.dropdown-menu
+{
+	background-color: @navbar-bg-dropdown-color !important;
+	border-color: @navbar-border-dropdown-color !important;
+}
+
+.dropdown-menu>li>a
+{
+	color: @navbar-dropdown-text-color !important;
+}
+
+.dropdown-menu>li>a:hover
+{
+	color: @navbar-dropdown-hover-text-color !important;
+	background-color: @navbar-bg-dropdown-hover-color !important;
+}
+
+.dropdown-menu .divider
+{
+	background-color: @navbar-divider-color !important;
+}
+
+

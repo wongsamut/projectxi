@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2014, 3:44:39 PM
+    Author     : Takahashi
+*/
+@charset "utf-8";
+@table-bg-hover-color: #000055;
+@table-text-hover-color: white;
+@table-link-hover-color: white;
+
+.table-hover tbody tr:hover td
+{
+	background-color: @table-bg-hover-color !important;
+	color: @table-text-hover-color !important;
+}
+
+.table-hover tbody tr:hover td a
+{
+	color: @table-link-hover-color;
+}
+
+.table-hover tbody tr:hover th
+{
+	background-color: white !important;
+}
+
+.table-hover tbody tr:hover th a
+{
+	color: white;
+}
+

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {  
+	  font-family: 'Niramit' ;  
+	  src:url(Font/TH%20Niramit%20AS.ttf) format("truetype");  
+	  font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB-Adman-X';
+    src: url(fonts/DB-Adman-X.eot)
+    src: url(fonts/DB-Adman-X.eot?#iefix)
+    format(embedded-opentype), url(fonts/DB-Adman-X.woff)format('woff'),
+    url(fonts/DB-Adman-X.ttf) format('truetype'),
+    url(fonts/DB-Adman-X.svg#DB-Adman-X) format('svg');
+}
